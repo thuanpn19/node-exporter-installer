@@ -9,7 +9,7 @@
 Run the following command to install the latest version of node exporter on your Ubuntu server:
 
 ```bash
-curl https://raw.githubusercontent.com/ongtungduong/node-exporter-installer/main/install-node-exporter.sh | bash
+curl https://raw.githubusercontent.com/thuanpn19/node-exporter-installer/refs/heads/main/install-node-exporter.sh | bash
 ```
 
 Run the following command to install the latest version of node exporter with custom port on your Ubuntu server.
@@ -17,7 +17,7 @@ Run the following command to install the latest version of node exporter with cu
 Replace <PORT> with your custom port before running the command.
 
 ```bash
-curl https://raw.githubusercontent.com/ongtungduong/node-exporter-installer/main/install-node-exporter.sh | EXPORTER_PORT=<PORT> bash
+curl https://raw.githubusercontent.com/thuanpn19/node-exporter-installer/refs/heads/main/install-node-exporter.sh | EXPORTER_PORT=<PORT> bash
 ```
 
 Run the following command to install specific version of node exporter on your Ubuntu server.
@@ -25,5 +25,5 @@ Run the following command to install specific version of node exporter on your U
 Replace <VERSION> with your custom version before running the command.
 
 ```bash
-curl https://raw.githubusercontent.com/ongtungduong/node-exporter-installer/main/install-node-exporter.sh | EXPORTER_VERSION=<VERSION> bash
+curl https://raw.githubusercontent.com/thuanpn19/node-exporter-installer/refs/heads/main/install-node-exporter.sh | EXPORTER_VERSION=<VERSION> bash
 ```
